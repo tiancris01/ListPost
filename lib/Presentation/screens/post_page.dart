@@ -94,7 +94,7 @@ class _PostsState extends State<Posts> {
       children: [
         ListTile(
           leading: CircleAvatar(
-            backgroundColor: Color.fromARGB(255, 0, 126, 228),
+            backgroundColor: const Color.fromARGB(255, 0, 126, 228),
             child: Text(
               '${post.id}',
               style: const TextStyle(
